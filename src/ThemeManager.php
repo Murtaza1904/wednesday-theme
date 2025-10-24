@@ -18,8 +18,8 @@ final class ThemeManager
     public function assets(): array
     {
         return [
-            'css' => asset('vendor/wednesday-theme/assets/css/wednesday-theme.css'),
-            'js'  => asset('vendor/wednesday-theme/js/index.js'),
+            'css' => asset('vendor/murtaza1904/wednesday-theme/resources/assets/css/wednesday-theme.css'),
+            'js'  => asset('vendor/murtaza1904/wednesday-theme/resources/js/index.js'),
         ];
     }
 }
