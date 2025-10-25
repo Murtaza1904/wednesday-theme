@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import "../../assets/css/error.css";
-import NotFoundImage from "../../assets/images/error.svg";
+import "../../css/error.css";
+import NotFoundImage from "../../images/error.svg";
 
 export default function ErrorLayout() {
     return (

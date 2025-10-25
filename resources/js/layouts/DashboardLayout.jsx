@@ -1,12 +1,12 @@
 import { Outlet } from "react-router-dom";
 
 // Importing components
-import Sidebar from "../app/Sidebar";
-import Header from "../app/Header";
-import Footer from "../app/Footer";
+import Sidebar from "../components/dashboard/Sidebar";
+import Header from "../components/dashboard/Header";
+import Footer from "../components/dashboard/Footer";
 
 // Importing CSS files
-import "../../assets/css/admin.css";
+import "../../css/theme.css";
 
 //Importing icons
 import 'bootstrap-icons/font/bootstrap-icons.css';

@@ -11,8 +11,8 @@ final class WednesdayThemeServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/../resources/css' => public_path('vendor/murtaza1904/wednesday-theme/resources/css'),
-            __DIR__ . '/../resources/js'  => public_path('vendor/wednesday-theme/resources/js'),
+            __DIR__ . '/../resources/css' => resource_path('css'),
+            __DIR__ . '/../resources/js'  => resource_path('js'),
         ], 'wednesday-theme-assets');
     }
 
