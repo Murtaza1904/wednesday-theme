@@ -13,6 +13,7 @@ final class WednesdayThemeServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../resources/css' => resource_path('css'),
             __DIR__ . '/../resources/js'  => resource_path('js'),
+            __DIR__ . '/../resources/images'  => public_path('images'),
         ], 'wednesday-theme-assets');
     }
 

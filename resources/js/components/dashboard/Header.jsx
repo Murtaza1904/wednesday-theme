@@ -2,7 +2,7 @@ import { useStateContext } from "../../contexts/ContextProvider";
 import Breadcrumb from "./Breadcrumb";
 import axiosClient from "../../axios-client";
 import { NavLink } from "react-router-dom";
-import { headerConfig } from "../../config/header.config";
+import { headerConfig } from "../../config/header.js";
 
 export default function Header({ toggleSidebar }) {
   const { user, setUser, setToken } = useStateContext();
